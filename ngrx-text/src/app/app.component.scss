@@ -1,0 +1,17 @@
+
+.container {
+	box-sizing: border-box;
+	height: 100vh;
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.actions-side {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}

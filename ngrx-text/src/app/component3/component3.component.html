@@ -1,0 +1,17 @@
+<mat-card>
+	<mat-card-header>
+		<mat-card-title>This component should receive data from state</mat-card-title>
+	</mat-card-header>
+	<mat-card-content>
+		<div>
+			<span>
+				Count: {{count$ | async}}
+			</span>
+		</div>
+		<div>
+			<span>
+				Message: {{message$ | async}}
+			</span>
+		</div>
+	</mat-card-content>
+</mat-card>
